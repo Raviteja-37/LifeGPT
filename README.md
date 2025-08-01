@@ -26,19 +26,23 @@ LifeGPT is a smart and motivating learning assistant that generates **personaliz
    cd lifegpt
 
 2. Create virtual environment
+   
   python3 -m venv .venv
   source .venv/bin/activate
 
-3. Install dependencies
+4. Install dependencies
+   
    pip install -r requirements.txt
 
 
-4. Setup .env
+6. Setup .env
 Create a .env file in the root with:
+
   GOOGLE_API_KEY=your_gemini_api_key
   YOUTUBE_PIPEDREAM_URL=your_pipedream_post_url
 
-5. Run the app
+8. Run the app
+   
    streamlit run lifegpt_app.py
 
 
